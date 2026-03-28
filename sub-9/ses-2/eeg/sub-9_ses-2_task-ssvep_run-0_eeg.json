@@ -1,0 +1,35 @@
+{
+	"TaskName": "ssvep",
+	"Manufacturer": "Compumedics Neuroscan",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 1000.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 410.999,
+	"RecordingType": "continuous",
+	"EEGReference": "right mastoid (M1)",
+	"EEGGround": "forehead",
+	"EEGPlacementScheme": "10-05 system",
+	"EEGChannelCount": 62,
+	"EOGChannelCount": 1,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Neuroscan Quik-Cap 65-ch, SynAmps2",
+	"SoftwareVersions": "n/a",
+	"HardwareFilters": {
+		"HardwareFilter": {
+			"highpass_time_constant_s": 10
+		}
+	},
+	"TaskDescription": "Multi-paradigm BCI (MI/ME/SSVEP/P300). SSVEP: 4-class frequency flickering, 48 trials/session, up to 3 sessions per subject. Trial duration: 7.0s, stimulus frequencies: [8.0, 10.0, 12.0, 15.0] Hz.",
+	"Instructions": "n/a",
+	"InstitutionName": "Shanghai Jiao Tong University",
+	"InstitutionAddress": "CN",
+	"InstitutionalDepartmentName": "n/a",
+	"CapManufacturer": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "n/a",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording.",
+	"MISCChannelCount": 2
+}

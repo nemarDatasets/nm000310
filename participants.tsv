@@ -1,0 +1,12 @@
+participant_id	age	sex	hand	weight	height	group	species	bci_experience
+sub-1	28.3	F	R	n/a	1.76	healthy	human	n/a
+sub-10	28.3	M	R	n/a	1.86	healthy	human	n/a
+sub-11	28.3	F	R	n/a	1.7	healthy	human	n/a
+sub-2	28.3	M	R	n/a	1.76	healthy	human	n/a
+sub-3	28.3	M	R	n/a	1.81	healthy	human	n/a
+sub-4	28.3	M	L	n/a	1.7	healthy	human	n/a
+sub-5	28.3	F	R	n/a	1.63	healthy	human	n/a
+sub-6	28.3	F	n/a	n/a	1.68	healthy	human	n/a
+sub-7	28.3	M	R	n/a	1.65	healthy	human	n/a
+sub-8	28.3	F	R	n/a	1.6	healthy	human	n/a
+sub-9	28.3	M	R	n/a	1.85	healthy	human	n/a
