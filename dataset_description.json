@@ -1,5 +1,5 @@
 {
-  "Name": "Guttmann-Flury et al. 2025 — Eye-BCI SSVEP dataset",
+  "Name": "Guttmann-Flury et al. 2025 (SSVEP) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
   "BIDSVersion": "1.9.0",
   "HEDVersion": "8.4.0",
   "DatasetType": "derivative",
