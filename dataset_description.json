@@ -9,7 +9,7 @@
     "Xinjun Sheng",
     "Xiangyang Zhu"
   ],
-  "DatasetDOI": "doi:10.1038/s41597-025-04861-9",
+  "DatasetDOI": "10.82901/nemar.nm000310",
   "GeneratedBy": [
     {
       "CodeURL": "https://github.com/NeuroTechX/moabb",
@@ -21,6 +21,9 @@
   "SourceDatasets": [
     {
       "DOI": "10.1038/s41597-025-04861-9"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-025-04861-9"
     }
   ],
   "Keywords": [
