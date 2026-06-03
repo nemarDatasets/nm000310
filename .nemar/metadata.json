@@ -1,0 +1,89 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Eva Guttmann-Flury": {
+      "orcid": "0000-0002-8241-1713"
+    },
+    "Xinjun Sheng": {},
+    "Xiangyang Zhu": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-04861-9",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000310",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000310",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Guttmann-Flury et al. 2025 (SSVEP) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
+  "license": "CC0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "2.2 GB (27 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A multimodal neuroimaging dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing a 4-class steady-state visually evoked potential (SSVEP) brain-computer interface task. The dataset comprises 3,024 trials across 63 sessions with 66-channel EEG recordings at 1000 Hz sampling rate, designed to investigate ocular activity patterns and their relationship to BCI performance across multiple paradigms.",
+  "methods_description": "EEG data were acquired using a 64-channel Neuroscan Quik-Cap with SynAmps2 amplifier at 1000 Hz sampling rate (66 total channels: 64 EEG + 1 EOG + 1 stimulus channel). The SSVEP paradigm consisted of 4-class frequency flickering stimuli (8, 10, 12, 15 Hz) presented via LED, with 48 trials per session and up to 3 sessions per subject. Trial duration was 7 seconds with a 5-second analysis window. Reference electrode was placed at the right mastoid (M1) with ground at the forehead. Online high-pass filtering was applied with a 10-second time constant. Concurrent eye-tracking and high-speed video recordings were obtained to capture ocular activity.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "steady-state visually evoked potentials"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "ocular activity"
+    },
+    {
+      "term": "eye movement"
+    },
+    {
+      "term": "visual stimulation"
+    },
+    {
+      "term": "multimodal neuroimaging"
+    },
+    {
+      "term": "ssvep"
+    }
+  ],
+  "source_hash": "fb772d2723e19fb9e49aeadfcfc6f098122fb4c95355a4b17271c312a2495f7c"
+}
