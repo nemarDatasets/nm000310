@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Guttmann-Flury et al. 2025 (SSVEP) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
-  "description": "A multimodal dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing a 4-class steady-state visually evoked potential (SSVEP) brain-computer interface task. The dataset comprises 3,024 trials across 63 sessions with 64-channel EEG recordings (66 total channels including EOG and stimulus) at 1000 Hz sampling rate, designed to enable analysis of ocular activity and visual processing mechanisms across BCI paradigms.",
-  "methods_description": "EEG data were acquired using a 64-channel Neuroscan Quik-Cap (66 total channels: 64 EEG + 1 EOG + 1 stimulus) with SynAmps2 amplifier at 1000 Hz sampling rate. Participants performed a 4-class SSVEP task with flickering LED stimuli at frequencies of 10.0, 11.0, 12.0, and 13.0 Hz. Each session consisted of 48 trials with 7-second trial duration. Concurrent eye-tracking and high-speed video recordings were obtained to capture ocular activity. Reference electrode was placed at the right mastoid (M1) with ground at the forehead.",
+  "description": "A multimodal neuroimaging dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing a 4-class steady-state visually evoked potential (SSVEP) brain-computer interface task. The dataset comprises 3,024 trials across 63 completed sessions with 64-channel EEG recordings (plus 1 EOG and 1 stim channel) at 1000 Hz sampling rate, designed to investigate ocular activity patterns and their relationship to BCI performance across multiple paradigms.",
+  "methods_description": "EEG data were acquired using a 64-channel Neuroscan Quik-Cap with SynAmps2 amplifier at 1000 Hz sampling rate. The SSVEP paradigm consisted of 4-class frequency flickering stimuli (8, 10, 12, 15 Hz) presented via flickering LEDs, with 48 trials per session and up to 3 sessions per subject. Reference electrode was placed at the right mastoid (M1) with ground at forehead. Online high-pass filtering was applied with a 10-second time constant. Concurrent eye-tracking and high-speed video recordings were obtained to capture ocular activity during the task.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -15,22 +15,25 @@
   },
   "keywords": [
     {
-      "term": "SSVEP"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
       "term": "EEG"
     },
     {
-      "term": "eye-tracking"
+      "term": "steady-state visually evoked potentials"
     },
     {
-      "term": "visual evoked potentials"
+      "term": "brain-computer interfaces"
     },
     {
-      "term": "multimodal neuroimaging"
+      "term": "eye tracking"
+    },
+    {
+      "term": "visual stimulation"
+    },
+    {
+      "term": "signal processing"
+    },
+    {
+      "term": "multimodal"
     },
     {
       "term": "high-speed video"
@@ -87,5 +90,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "428e9fc824f2aa09ce772e824ba68ba43ce6c5d036180de35e405bdf512f7fe8"
+  "source_hash": "83a77701ed5fe6a2c462d1f04cddce57252a64e619ca7de8273a335cc0e10d49"
 }
