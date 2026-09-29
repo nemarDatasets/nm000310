@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Guttmann-Flury et al. 2025 (SSVEP) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
-  "description": "A multimodal neuroimaging dataset combining EEG, eye-tracking, and high-speed video recordings from 31 healthy participants performing a 4-class steady-state visually evoked potential (SSVEP) brain-computer interface task. The dataset comprises 3,024 trials across 63 completed sessions with 64-channel EEG recordings (plus 1 EOG and 1 stim channel) at 1000 Hz sampling rate, designed to investigate ocular activity patterns and their relationship to BCI performance across multiple paradigms.",
-  "methods_description": "EEG data were acquired using a 64-channel Neuroscan Quik-Cap with SynAmps2 amplifier at 1000 Hz sampling rate. The SSVEP paradigm consisted of 4-class frequency flickering stimuli (8, 10, 12, 15 Hz) presented via flickering LEDs, with 48 trials per session and up to 3 sessions per subject. Reference electrode was placed at the right mastoid (M1) with ground at forehead. Online high-pass filtering was applied with a 10-second time constant. Concurrent eye-tracking and high-speed video recordings were obtained to capture ocular activity during the task.",
+  "description": "A multimodal SSVEP dataset from 31 healthy participants, recorded with 64-channel EEG plus EOG, with up to three sessions per subject. Participants viewed flickering LED stimuli in a 4-class frequency paradigm (48 trials per session, 3024 trials in total). It is part of a larger collection combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms, and is distributed here in a MOABB-derived BIDS format.",
+  "methods_description": "EEG was recorded at 1000 Hz with a Neuroscan Quik-Cap 65-channel cap and SynAmps2 amplifier (Ag/AgCl sensors, right mastoid reference, forehead ground, 50 Hz line frequency). Participants viewed flickering LED stimuli in a 4-class SSVEP paradigm, with 48 trials per session and up to 3 sessions per subject. Trial duration was 7 s, and the analysis interval was 0-5 s.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,10 +18,10 @@
       "term": "EEG"
     },
     {
-      "term": "steady-state visually evoked potentials"
+      "term": "SSVEP"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "brain-computer interface"
     },
     {
       "term": "eye tracking"
@@ -30,16 +30,14 @@
       "term": "visual stimulation"
     },
     {
-      "term": "signal processing"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "multimodal"
-    },
-    {
-      "term": "high-speed video"
-    },
-    {
-      "term": "ocular activity"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     }
   ],
   "related_identifiers": [
@@ -75,7 +73,7 @@
     "eeg"
   ],
   "sizes": [
-    "30.7 GB (342 files)"
+    "28.63 GB (342 files)"
   ],
   "formats": [
     ".avi",
