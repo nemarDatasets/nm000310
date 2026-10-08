@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Guttmann-Flury et al. 2025 (SSVEP) — Dataset combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms",
-  "description": "A multimodal SSVEP dataset from 31 healthy participants, recorded with 64-channel EEG plus EOG, with up to three sessions per subject. Participants viewed flickering LED stimuli in a 4-class frequency paradigm (48 trials per session, 3024 trials in total). It is part of a larger collection combining EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms, and is distributed here in a MOABB-derived BIDS format.",
-  "methods_description": "EEG was recorded at 1000 Hz with a Neuroscan Quik-Cap 65-channel cap and SynAmps2 amplifier (Ag/AgCl sensors, right mastoid reference, forehead ground, 50 Hz line frequency). Participants viewed flickering LED stimuli in a 4-class SSVEP paradigm, with 48 trials per session and up to 3 sessions per subject. Trial duration was 7 s, and the analysis interval was 0-5 s.",
+  "description": "A multimodal steady-state visual evoked potential (SSVEP) dataset from 31 healthy participants, recorded with 64-channel EEG across up to three sessions each. Participants viewed flickering LED stimuli in a 4-class frequency paradigm (48 trials per session). It is the SSVEP subset of a larger collection that combines EEG, eye-tracking, and high-speed video for ocular activity analysis across BCI paradigms, and is distributed here in a MOABB-derived BIDS format.",
+  "methods_description": "EEG was recorded at 1000 Hz with a Neuroscan Quik-Cap (64 EEG channels plus EOG and stim channels) and SynAmps2 amplifier, referenced to the right mastoid with a forehead ground. Participants viewed four flickering LED stimuli in an offline, synchronous SSVEP paradigm with 48 trials per session. Data are stored in BDF format with HED 8.4.0 event annotations.",
   "license": "CC0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,17 +27,10 @@
       "term": "eye tracking"
     },
     {
-      "term": "visual stimulation"
+      "term": "visual evoked potentials"
     },
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+      "term": "ocular activity"
     }
   ],
   "related_identifiers": [
@@ -88,5 +81,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "83a77701ed5fe6a2c462d1f04cddce57252a64e619ca7de8273a335cc0e10d49"
+  "source_hash": "41aa0f884c29a5c2734517439ff9e68803e298848fd5eb1c708135ffb2590504"
 }
